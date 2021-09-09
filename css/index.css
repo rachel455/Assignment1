@@ -5,21 +5,16 @@ body {
 * {
     box-sizing: border-box;
   }
-/* Create two equal columns that floats next to each other */
+  
 .column {
-    float: right;
-    width: 50%;
-    padding: 2px;
+    float: left;
+    width: 33.33%;
     padding: 5px;
   }
   
-.column img {
-    margin-top: 12px;
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
