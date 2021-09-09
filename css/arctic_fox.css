@@ -1,8 +1,8 @@
 body {
-    background-color: rgb(208, 180, 159);
-    text-align: center;
-    
-  }
+  background-color: rgb(208, 180, 159);
+  text-align: center;
+}
+
 button {
   float: left;
   background-color: black;
@@ -11,4 +11,9 @@ button {
   font-size: 14px;
   border-radius: 20px;
   padding: 10px;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
 }
