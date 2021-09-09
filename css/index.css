@@ -3,6 +3,10 @@ body {
     text-align: center;
     align-content: center;
   }
+img{
+  width: 350;
+  height: 300;
+}
 
 * {
   box-sizing: border-box;
