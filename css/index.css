@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(241, 227, 223);
-    text-align: center;
-    align-content: center;
-  }
-img{
+  background-color: rgb(241, 227, 223);
+  text-align: center;
+  align-content: center;
+}
+img {
   width: 350px;
   height: 300px;
 }
@@ -18,7 +18,7 @@ img{
 
 .column {
   flex: 50%;
-  padding: 25px;
+  padding: 15px;
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
