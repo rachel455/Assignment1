@@ -2,3 +2,6 @@ body {
     background-color: rgb(241, 231, 221);
     text-align: center;
   }
+a {
+  float: left;
+}
